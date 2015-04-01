@@ -9,7 +9,7 @@
     buildTypes {
         release {
             // Assuming pulled this repository as 'pp'
-            proguardFiles 'pp/core.pro', 'pp/com.facebook.pro', 'pp/package.name.pro', ...
+            proguardFiles 'pp/base.pro', 'pp/core.pro', 'pp/com.facebook.pro', 'pp/package.name.pro', ...
             minifyEnabled true
         }
     }
